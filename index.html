@@ -121,19 +121,28 @@
     </header>
 
     <main class="main">
-      <!-- Hero Section -->
-      <section id="hero" class="hero section dark-background">
-        <img src="assets/img/sam3.jpg" alt="" data-aos="fade-in" class="" />
+  <!-- Hero Section -->
+  <section id="hero" class="hero section dark-background" style="position: relative; height: 100vh;">
+    
+    <!-- Background Image -->
+    <img src="assets/img/sam3.jpg" alt="" style="width: 100%; height: 100%; object-fit: cover; position: absolute; top: 0; left: 0; z-index: 0;" />
 
-        <div class="container" data-aos="fade-up" data-aos-delay="100">
-          <h2>Samson Sambavi</h2>
-          <p>
-              I'm
-                   <span class="typed" data-typed-items="UI/UX Designer, Software Developer"></span>
-                   <span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span>
-         </p>
+    <!-- Centered Text Container -->
+    <div class="container" data-aos="fade-up" data-aos-delay="100"
+         style="position: relative; z-index: 1; display: flex; flex-direction: column; justify-content: center; align-items: center; height: 100vh; text-align: center; color: white;">
+      
+      <h2 style="font-size: 48px; font-weight: bold;">Samson Sambavi</h2>
+      
+      <p style="font-size: 24px; margin-top: 10px;">
+        I'm <span class="typed" data-typed-items="UI/UX Designer, Software Developer"></span>
+        <span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span>
+      </p>
+      
+    </div>
+    
+  </section>
+</main>
 
-        </div>
       </section>
       <!-- /Hero Section -->
 
